@@ -6,7 +6,7 @@ import '@shoelace-style/shoelace/dist/components/card/card.js';
 import '@shoelace-style/shoelace/dist/components/button/button.js';
 
 import { styles } from '../styles/shared-styles';
-import './TodoList';
+import './src/ToDoList.ts';
 
 @customElement('app-home')
 export class AppHome extends LitElement {
